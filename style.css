@@ -1,0 +1,35 @@
+html {
+  font-size: 24px;
+}
+
+img {
+  max-width: 100%;
+}
+
+.container__first {
+  background-color: yellow;
+}
+@media screen and (min-width: 600px) {
+  .container__first {
+    background-color: green;
+  }
+}
+.container__first p {
+  font-size: 1rem;
+}
+.container__second {
+  background: url("./images/demo-image_200.jpg") cyan no-repeat bottom left;
+}
+@media screen and (min-width: 600px) {
+  .container__second {
+    background-image: url("./images/demo-image_1400.jpg");
+  }
+}
+@media screen and (min-width: 600px) {
+  .container__second {
+    font-size: 1.5rem;
+  }
+}
+.container__third {
+  background-color: pink;
+}/*# sourceMappingURL=style.css.map */

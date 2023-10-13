@@ -1,0 +1,40 @@
+@import 'variables.scss';
+
+html {
+  font-size: 24px;
+}
+
+img {
+  max-width: 100%;
+}
+
+.container {
+
+  &__first {
+    background-color: yellow;
+
+    @media screen and (min-width: $tablet-size) {
+      background-color: green;
+    }
+  
+    p {
+      font-size: 1rem;
+    }
+  }
+  
+  &__second {
+    background: url('./images/demo-image_200.jpg') cyan no-repeat bottom left;
+
+    @media screen and (min-width: $tablet-size) {
+      background-image: url('./images/demo-image_1400.jpg');
+    }
+
+    @media screen and (min-width: $tablet-size) {
+      font-size: 1.5rem;
+    }
+  }
+  
+  &__third {
+    background-color: pink;
+  }
+}
